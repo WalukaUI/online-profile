@@ -1,0 +1,97 @@
+$duration: 5s;
+
+.logosContainer > img{
+    position: relative;
+}
+
+.react{
+    width: 60px;
+    position: relative;
+    animation-name: easeIn;
+    animation-duration: 3s;
+}
+.js{
+    width: 60px;
+    position: relative;
+    animation-name: roll;
+    animation-duration: 4s;
+}
+
+.ruby{
+    width: 50px;
+    animation-name: rollIn;
+    animation-duration: $duration;
+    animation-timing-function: ease-out;
+}
+.rails{
+    width: 40px;
+    animation-name: rollIn;
+    animation-duration: $duration;
+    animation-timing-function: ease-in;
+}
+.html5{
+    width: 50px;
+    animation-name: rollInrigtcorner;
+    animation-duration: $duration;
+}.css3{
+    width: 60px;
+    animation-name: rollIn;
+    animation-duration: $duration;
+    animation-timing-function: ease-in-out;
+}
+.sacc{
+    width: 50px;
+    animation-name: rollIn;
+    animation-duration: $duration;
+}
+.psql{
+    width: 50px;
+    animation-name: rollInright;
+    animation-duration: $duration;
+}
+.mdb{
+    width: 70px;
+    animation-name: rollInright;
+    animation-duration: $duration;
+}
+.postman{
+    width: 50px;
+    animation-name: rollIn;
+    animation-duration: $duration;
+    animation-timing-function: ease-in-out;
+}
+.rest{
+    width: 50px;
+    position: relative;
+    animation-name: easeIn;
+    animation-duration: $duration;
+    animation-timing-function: ease-in-out;
+}
+.git{
+    width: 50px;
+    position: relative;
+    animation-name: roll;
+    animation-duration: $duration;
+    animation-timing-function: ease-in-out;
+}
+@keyframes easeIn{
+    from {top: 400px;}
+    to {top: 0px}
+  }
+  @keyframes roll{
+    from {top: -400px}
+    to {top: 0px}
+  }
+  @keyframes rollIn {
+    0% { opacity: 0; transform: translateX(-800px) rotate(-360deg); }
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+ }
+ @keyframes rollInright {
+    0% { opacity: 0; transform: translateX(800px) rotate(-560deg); }
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+ }
+ @keyframes rollInrigtcorner {
+     from{top: 0px; right: 0px;}
+    0% { opacity: 0; transform: translateX(900px) rotate(-360deg);}
+    100% { opacity: 1; transform: translateX(0px) rotate(0deg); } 
+ }

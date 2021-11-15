@@ -1,0 +1,110 @@
+#scrollButton {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 85%;
+  left: 47%;
+  text-align: center;
+  animation: btnScroller 4s infinite;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  line-height: 0.5;
+  p {
+    border-radius: 10%;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+@keyframes btnScroller {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 500px;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(36, 149, 241);
+  background: linear-gradient(rgb(17, 13, 68), rgb(20, 28, 53));
+  p {
+    margin: 0;
+  }
+  h1 {
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-family: "Quintessential", cursive;
+    margin-bottom: 20%;
+  }
+}
+.abstractImage {
+  width: 50%;
+  position: absolute;
+  left: -450px;
+  top: 300px;
+}
+.vrtLine {
+  background-color: rgb(30, 75, 60);
+  height: 350px;
+  width: 2px;
+  margin-bottom: 100px;
+  position: fixed;
+}
+.headding {
+  width: 49%;
+  padding-left: 20%;
+}
+.logosContainer {
+  width: 49%;
+  img {
+    padding-right: 3%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .vrtLine {
+    display: none;
+}}
+@media only screen and (max-width: 900px) {
+  .headding {
+    padding-left: 7%;
+}}
+@media only screen and (max-width: 600px) {
+    body {
+      text-align: center;
+    }
+    #mainContainer {
+      flex-direction: column;
+      padding-bottom: 10%;
+    }
+    .headding {
+      padding-left: 0% !important;
+    }
+    .vrtLine {
+      display: none;
+    }
+    .logosContainer {
+      width: 90% !important;
+    }
+    #scrollButton {
+      display: none;
+    }
+  }

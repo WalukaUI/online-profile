@@ -1,0 +1,51 @@
+#aboutMe{
+  background: linear-gradient(rgb(20, 28, 53), rgb(27, 35, 58));
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  overflow: hidden;
+  div{
+    padding: 5%;
+  }
+  .innerText{
+    padding-left: 25%;
+  }
+}
+
+.aboutme {
+  overflow: hidden;
+  p {
+    color: rgb(226, 202, 248);
+    font-size: x-large;
+  }
+}
+.computer{
+  width: 90%;
+}
+.aboutmeImage {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+#aboutMe{
+  height: 700px;
+  padding-top: 30px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 5%;
+      div{
+        overflow: hidden;
+        padding: 0;
+    }
+    .innerText {
+      padding-left: 0;
+      padding-bottom: 5%;
+    }
+  
+}
+.computer{
+  width: 70%;
+  padding-top: 5%;
+}
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chicle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chicle&family=Quintessential&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link  rel="stylesheet" href="./styles/styles.css" />
+    <title>My Portfolio </title>
+</head>
+<body>
+    <main>
+        <div id="progressbar"></div>
+        <div id="progressPath"></div>
+        <div id="scrollButton">
+          <p>Scroll Down </p>
+          <span>🔽</span>
+        </div>
+    <section id="mainContainer">
+        <div class="headding">
+            <h1>I'm Waluka</h1>
+            <h2>A Software Engineer</h2>
+            <div class="abstractImage"><img alt="icosaedre" src="images/icosaedre.svg"/></div>
+            
+        </div>
+        <div class="vrtLine">
+        </div>
+        <div class="logosContainer">
+        <div>
+            <img class="react" alt="react" src="images/logos/react.png" />
+            <img class="js" alt="react" src="images/logos/js.png" />
+            <img class="ruby" alt="ruby" src="images/logos/ruby.svg" />
+            <img class="rails" alt="rails" src="images/logos/rails.svg" />
+        </div>
+        <div>
+          <img class="html5" alt="html5" src="images/logos/HTML5.svg" />
+          <img class="css3" alt="css3" src="images/logos/css3.svg" />
+          <img class="git" alt="git" src="images/logos/git.svg" />
+          <img class="psql" alt="postman" src="images/logos/postgresql.png" />
+        </div>
+        <div>
+          <img class="postman" alt="psql" src="images/logos/postman.png" />
+          <img class="sacc" alt="sacc" src="images/logos/sass.svg" />
+          <img class="mdb" alt="mdb" src="images/logos/mongodb.svg" />
+          <img class="rest" alt="rest" src="images/logos/rest.png" />
+        </div>
+      </div>
+        </section>
+        
+        <section id="aboutMe">
+              <div class="aboutme widthDiv1">
+                <div class="innerText">
+                  <p class="slide-in fade-in-left">I'm looking forward to purse an opportunity with a growing organization that will 
+                    utilize and enhance my knowledge in 
+                    software engineering field while acquiring essential growth opportunities.</p>
+                  
+                </div>
+               </div>
+              <div class="aboutmeImage widthDiv2">
+                <img class="slide-in fade-in-right computer" alt="laptop" src="images/laps.svg"/>
+              </div>
+          </section>
+
+
+          <section id="samples">
+              <div class="sampleLinks widthDiv1 slide-in fade-in-left"> 
+                <div>
+                <h4>Check out few of my completed Projects</h4>
+                <ul id="urls">
+                  <p><a name="https://doctor-appointment-creator.netlify.app">Doctor Booking App</a></p>
+                  <p><a name="https://www.slausa.org">SL. Association USA</a></p>
+                  <p><a name="https://tnt-project-manager.netlify.app">Project Mangement App</a></p>
+                  <p><a name="https://crickusa-series.netlify.app">Cricket USA</a></p>
+                  <p><a name="https://zero-inventory-mgr.netlify.app">Inventory Manager</a></p>
+                </ul>
+              </div>
+            </div>
+              <div class="sampleLinkWindow widthDiv2">
+                <div class="slide-in fade-in-right">
+                <form name="formname"  id="form-first">
+                  <iframe id="one" src="https://zero-inventory-mgr.netlify.app">
+                  </iframe>
+                  <a id="openBrowser" href="https://zero-inventory-mgr.netlify.app" target="blank">Open in Browser</a>
+                </form>
+              </div>
+             </div>
+          </section>
+
+          <section id="contactMe">
+            <div class="conatctmeDescriptionDiv widthDiv1 fadeIn">
+              <h4>Contact Me</h4>
+              <p>You are just a button click away from me.
+                Best way to contact me is sending an email.
+                Let me know anything by filling this form.... 😊.... </p>
+            </div>
+            <div class="conatctmeFormDiv widthDiv2 fadeIn">
+              <form id="emailData">
+                <div class="contactMeForm">
+                 <label>Name<input name="name" placeholder="Your name" maxlength="40" required/></label>
+                 <label>Email Address<input name="email" type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address" placeholder="Your email address" maxlength="40" required/></label>
+                 <label>Comment/Message<textarea name="message" maxlength="600" placeholder="Comment/Message. Max 600 charactors" required></textarea></label>
+                 <button type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </section>
+
+          <section id="footer">
+            <div class="bottom-container">
+              <a  href="https://www.linkedin.com/in/waluka-chathuranga-galappaththi-5a6607186/" target="_blank"><img src="./images/logos/linkedin.png" alt="Linkdin"></a>
+              <a  href="https://www.facebook.com/waluka.chathuranga" target="_blank"><img src="./images/logos/facebook.png" alt="Facebook"></a>
+              <a  href="https://www.instagram.com/cwaluka/" target="_blank"><img src="./images/logos/instagram.png" class="footerInsta" alt="twitter"></a>
+              <p class="copyright">© 2021 Waluka.</p>
+              <a target="_blank" href="https://icons8.com/icon/21888/rest-api">Rest API</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
+    
+          </section>
+        </main>
+        <script src="index.js"></script>
+            <!-- email js -->
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+            <script type="text/javascript">
+            (function() {
+            emailjs.init("user_lKVMUZPYGwUDtHBAdsLEn");
+             })();
+             </script>
+</body>
+</html>

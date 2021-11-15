@@ -1,0 +1,35 @@
+#contactMe {
+  display: flex;
+  color: aliceblue;
+  background: linear-gradient(rgb(20, 28, 61), rgb(37, 29, 73));
+ div{
+  padding: 5%;
+ }
+}
+.conatctmeDescriptionDiv {
+  font-size: x-large;
+}
+.contactMeForm {
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  input {
+    width: 100%;
+  }
+  button {
+    width: 20%;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #contactMe {
+    flex-direction: column;
+    overflow: hidden;
+    .widthDiv1 {
+      width: 80%;
+    }
+  }
+}
