@@ -24,12 +24,19 @@
     height: 100px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   #contactMe {
     flex-direction: column;
     overflow: hidden;
-    .widthDiv1 {
-      width: 80%;
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    div{
+      padding: 0;
     }
+  }
+  .conatctmeDescriptionDiv {
+    margin-top: 10%;
+    margin-bottom: 10%
   }
 }
