@@ -73,6 +73,7 @@
           align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: #2495f1;
   background: -webkit-gradient(linear, left top, left bottom, from(#110d44), to(#141c35));
   background: linear-gradient(#110d44, #141c35);
@@ -125,9 +126,6 @@
   .vrtLine {
     display: none;
   }
-}
-
-@media only screen and (max-width: 900px) {
   .headding {
     padding-left: 7%;
   }
@@ -664,11 +662,6 @@ body {
   }
   .widthDiv2 {
     width: 100%;
-  }
-  .fade-in-right, .fade-in-left, .fadeIn {
-    -webkit-transform: none  !important;
-            transform: none  !important;
-    opacity: 1  !important;
   }
 }
 

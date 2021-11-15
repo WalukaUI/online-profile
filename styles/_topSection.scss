@@ -41,6 +41,7 @@
   align-items: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   color: rgb(36, 149, 241);
   background: linear-gradient(rgb(17, 13, 68), rgb(20, 28, 53));
   p {
@@ -82,11 +83,11 @@
 @media only screen and (max-width: 1000px) {
   .vrtLine {
     display: none;
-}}
-@media only screen and (max-width: 900px) {
-  .headding {
-    padding-left: 7%;
-}}
+}
+.headding {
+  padding-left: 7%;
+}
+}
 @media only screen and (max-width: 600px) {
     body {
       text-align: center;
