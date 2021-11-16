@@ -459,7 +459,6 @@
 
 @media only screen and (max-width: 1000px) {
   #aboutMe {
-    height: 700px;
     padding-top: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
