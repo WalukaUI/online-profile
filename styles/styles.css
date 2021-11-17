@@ -520,6 +520,10 @@
   background: linear-gradient(to bottom, #18203b 90%, #3220d3 20%);
 }
 
+.content {
+  display: none;
+}
+
 .sampleLinkWindow {
   overflow: hidden;
   display: -webkit-box;
